@@ -143,3 +143,410 @@
     border-radius: 20px;
     display: flex;
 }
+
+.profile-icon img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin:5px;
+}
+
+.profile h2{
+  font-size: 13px;
+  margin: 7px 5px;
+}
+
+
+.cursor{
+    transform: rotate(180deg);
+    margin-top: 5px;
+    text-align: center;
+    font-size: medium;
+    font-weight:bolder;
+}
+
+.language{
+    font-size: medium;
+    font-weight: bold;
+    margin-right:10px ;
+}
+
+.nav-menu{
+    width: 100%;
+    height: 60px;
+    background-color: #fe5f0a; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu li{
+    display: inline;   
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 15px;
+}
+
+
+.section-boxes{
+    background-color: #e7e6e6;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.financial-box{
+    width: 50%;
+    padding: 0 25px;
+   
+}
+
+.available-money{
+    width: 640px;
+    height: 150px;
+    background-color: #fcfcfc;
+    margin-top: 30px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+
+
+}
+
+.header-title{
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.total-amount{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 25px;
+
+}
+
+.information-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.currency{
+    font-size: 18px;
+    color: #333;
+    margin:0px 25px;
+}
+
+.row1{
+    width: 640px;
+    height: 65px;
+    background-color: #fcfcfc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2px;
+    transition: 0.5s;
+}
+
+.row1:hover {
+    background-color:#e7e6e6 ;
+ }
+
+.service-account{
+    font-size: 16px;
+    color:#333;
+    margin-left: 100px;
+}
+
+.amount{
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.row1 button{
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-right:100px;
+    transition: 0.5s;
+}
+
+.row1 button:hover{
+    transform: scale(1.1);
+}
+
+.row2{
+    width: 640px;
+    height: 65px;
+    background-color: #fcfcfc;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.row2:hover {
+    background-color:#e7e6e6 ;
+ }
+
+.row2 button{
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-right: 100px;
+    transition: 0.5s;
+}
+
+.row2 button:hover{
+    transform: scale(1.1);
+}
+
+
+.revenue-service{
+    width: 640px;
+    height: 100px;
+    background-color: #fcfcfc;
+    margin-top: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.revenue-service:hover{
+    background-color: #e7e6e6
+}
+
+.revenue-service img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 25px;
+}
+
+.text-info{
+   line-height: 1.5;
+   margin-left: 15px;    
+}
+
+.text-info h1{
+    font-size: 20px;
+    color: #2d2d2e;
+}
+
+.text-info p{
+    font-size: 18px;
+    color: #9f9b96;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+}
+
+.text-info a{
+    text-decoration: none;
+    color: orangered;
+}
+
+.plus-score{
+    width: 640px;
+    height: 185px;
+    background-color:#fcfcfc ;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.credit-offer{
+    width: 640px;
+    height: 220px;
+    background-color: #fcfcfc;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.pension-fond{
+    width: 640px;
+    height: 110px;
+    background-color:#fcfcfc ;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.currency-exchange{
+    width: 640px;
+    height: 415px;
+    background-color:#fcfcfc;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.informational-box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.offer{
+    width: 640px;
+    height: 210px;
+    margin-top: 30px;
+    background-color: #fcfcfc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-box{
+    width: 120px;
+    height: 160px;
+    border: 3px solid orangered;
+    border-radius: 10px;
+    margin-left: 25px;
+    background-image: url(png.png) ;
+}
+
+.contact-info{
+    width: 640px;
+    height: 240px;
+    margin-top: 15px;
+    background-color: #fcfcfc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.full-name{
+    width: 120px;
+    height: 155px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.full-name:hover{
+    background-color: #e7e6e6
+}
+
+.full-name h3{
+    white-space: pre-line;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+}
+
+.full-name img{
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    margin:0  40px;
+}
+
+
+.transfer{
+    width: 120px;
+    height: 155px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-box{
+    width: 50px;
+    height:50px ;
+    margin: 0 35px;
+    border-radius: 20px;
+    background-color: #f5d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-box img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.transfer h3{
+    white-space: pre-line;
+    font-weight: bold; 
+    font-size: medium;
+    margin:20px;
+    margin-top: -10px;
+}
+
+.transfer:hover{
+    background-color: #e7e6e6
+}
+
+.more-info{
+    width: 120px;
+    height: 155px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+.more-info:hover{
+    background-color: #e7e6e6;
+}
+
+.more-info-box{
+    width: 50px;
+    height:50px ;
+    border-radius: 20px;
+    margin: 20px 35px;
+    background-color: #f5d3d3;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    color:orangered;
+    font-weight:bold;
+    font-size: medium;
+
+}
+
+.more-info h3{
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.templates{
+    width: 640px;
+    height: 230px;
+    background-color:#fcfcfc;
+    margin-top:15px;
+    border-radius: 10px;
+}
+
+.transactions-info{
+    width:640px ;
+    height: 490px;
+    background-color:#fcfcfc ;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.templates{
+    font-size: larger;
+}
+
