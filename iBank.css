@@ -410,7 +410,51 @@
     border: 3px solid orangered;
     border-radius: 10px;
     margin-left: 25px;
-    background-image: url(png.png) ;
+    background-image: url(photo/image1.png) ;
+}
+
+.PLUS-discount{
+    width: 120px;
+    height: 160px;
+    border: 3px solid orangered;
+    border-radius: 10px;
+    margin-left: 25px;
+    background-image: url(photo/image2.png) ; 
+}
+
+.ordercard{
+    width: 120px;
+    height: 160px;
+    border: 3px solid orangered;
+    border-radius: 10px;
+    margin-left: 25px;
+    background-image: url(photo/image3.png) ; 
+}
+
+.PLUS{
+    width: 120px;
+    height: 160px;
+    border: 3px solid orangered;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+
+.half-discount{
+    width: 120px;
+    height: 160px;
+    border: 3px solid orangered;
+    border-radius: 10px;
+    margin-left: 25px;
+
+}
+
+.PLUS-felino{
+    width: 120px;
+    height: 160px;
+    border: 3px solid orangered;
+    border-radius: 10px;
+    margin-left: 25px;
+
 }
 
 .contact-info{
