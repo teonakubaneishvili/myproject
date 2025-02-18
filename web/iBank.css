@@ -559,21 +559,50 @@
 
 .templates{
     width: 640px;
-    height: 230px;
+    height: 240px;
     background-color:#fcfcfc;
     margin-top:15px;
-    border-radius: 10px;
+}
+
+.templates h3{
+    color: #393838;
+    margin: 35px 25px;
+}
+
+.enrollment{
+    width: 50px;
+    height:50px ;
+    margin: 45px 60px;
+    border-radius: 20px;
+    background-color: #f5d3d3;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.enrollment img{
+    width: 30px;
+    height:30px ;
+    margin: 0 35px;
+    border-radius: 20px;
+    
+}
+
+.templates p{
+    white-space: pre;
+    color: black;
+    font-weight: bold;
+    margin-top: -60px;
+    margin-left:-50px;
+
 }
 
 .transactions-info{
     width:640px ;
-    height: 490px;
+    height:350px;
     background-color:#fcfcfc ;
     margin-top: 15px;
     border-radius: 10px;
-}
-
-.templates{
-    font-size: larger;
 }
 
