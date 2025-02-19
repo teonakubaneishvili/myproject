@@ -606,3 +606,41 @@
     border-radius: 10px;
 }
 
+.title-box{
+    height: 70px;
+    border-top:1px solid #ddd
+}
+
+.transaction{
+    height: 70px;
+    display: flex;
+    padding: 10px;
+    border-top:1px solid #ddd
+}
+
+.date{
+    font-size: 12px;
+    color: gray;
+}
+
+.description{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.amount{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left:30px;
+}
+
+.more-info{
+    
+}
+
+.all-transaction{
+    height: 70px;
+    border-bottom: 10px;
+    border-top: 1px solid #ddd;
+}
+
