@@ -356,10 +356,45 @@
 
 .plus-score{
     width: 640px;
-    height: 185px;
+    height: 200px;
     background-color:#fcfcfc ;
     margin-top: 15px;
     border-radius: 10px;
+}
+
+.title{
+    height: 95px;
+    padding: 40px 25px;
+}
+
+.title h3{
+    color: #221414;
+
+}
+
+.loyalty-box{
+    height: 105px;
+    display: flex;
+}
+
+.photo-logo{
+    margin: 20px 25px;
+}
+
+.PLUS-score-info{
+    margin: 20px -7px;
+}
+
+.score-money{
+    width: 65px;
+    height: 20px;
+    background-color: #e8e8e8;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: size 16px;;
 }
 
 .credit-offer{
@@ -612,11 +647,16 @@
     border-top:1px solid #ddd
 }
 
+.title-box h3{
+    margin: 25px 35px;
+    color: #221414
+}
+
 .transaction-box{
     height: 70px;
     display: flex;
     padding: 10px;
-    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
     display: flex;
     justify-content: space-around;
 }
@@ -650,12 +690,14 @@
     font-weight: bold;
     margin-left: 40px;
     color: green;
+   
 }
 
 .vertical-dots{
     writing-mode: vertical-lr;
     font-size: 24px;
     line-height: 1;
+   
 }
 
 .icon{
@@ -670,7 +712,7 @@
     height: 70px;
     display: flex;
     padding: 10px;
-    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
     display: flex;
 }
 
@@ -678,19 +720,41 @@
     margin-left: 25px;
 }
 
+.personal-amount{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 40px;
+    color: green;
+    margin-left: 315px;
+}
+
+.three-dots{
+    writing-mode: vertical-lr;
+    font-size: 24px;
+    line-height: 1;
+    margin-left: 35px;
+}
+
 .all-info{
     height: 70px;
     display: flex;
     padding: 10px;
-    border-top:1px solid #ddd;
-    color:#ff6c41;
-    text-align: center;
+    border-bottom-right-radius:1px solid #ddd;
+    color: #ffa600;
+    margin-left: 200px;
     
 }
 
-.all-transaction{
-    height: 70px;
-    border-bottom: 10px;
-    border-top: 1px solid #ddd;
+.symbol{
+    font-size: 24px;
+    font-weight:bold;
+
+
 }
+
+.all-info h4{
+    margin-left: 10px;
+ 
+}
+
 
