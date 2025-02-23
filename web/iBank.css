@@ -399,15 +399,56 @@
 
 .credit-offer{
     width: 640px;
-    height: 220px;
+    height: 260px;
     background-color: #fcfcfc;
     margin-top: 15px;
     border-radius: 10px;
+    padding: 30px;
+}
+
+.icon-offer{
+    width: 50px;
+    height: 50px;
+   background-image: url(photo/offer.png);
+   padding: 30px;
+  
+}
+
+.offer-box{
+    display: flex;
+}
+
+.offer-box h3{
+    font-size: 20px;
+    margin: 20px 10px;
+}
+
+.offer-off{
+    width: 100px;
+    height: 20px;
+    border-radius: 20px;
+    margin: 25px 5px;
+    background-color: #e22820;
+    color: #f8e8ee;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+}
+
+.credit-offer p{
+    white-space:pre ;
+   margin: -30px -100px;
+}
+
+.power-button{
+    margin: 10px 10px;
+    color: #ff9c5e;
+    font-size: large;
 }
 
 .pension-fond{
     width: 640px;
-    height: 110px;
+    height:210px;
     background-color:#fcfcfc ;
     margin-top: 15px;
     border-radius: 10px;
