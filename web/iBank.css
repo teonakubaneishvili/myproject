@@ -446,6 +446,110 @@
     font-size: large;
 }
 
+.all-offer{
+    width: 640px;
+    height: 450px;
+    background-color: #fcfcfc;
+    margin-top: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.health-box{
+    width: 280px;
+    height: 290px;
+    margin-top: 80px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.photo-clinic{
+    height: 155px;
+    background-image: url(photo/clinic.png);
+}
+
+.clinic-info{
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 25px;
+
+}
+
+.clinic-title{
+    font-weight: bold;
+}
+
+.clinic-name{
+    width: 65px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+}
+
+.clinic-name p{
+    font-size: small;
+    text-align: center;
+}
+
+.offer-day-box{
+    display: flex;
+}
+
+.circle{
+    width: 10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 5px;
+}
+
+.offer-day{
+    margin: 0 10px;
+    font-size: small;
+}
+
+.rest-box{
+    width: 280px;
+    height: 290px; 
+    margin-top: 80px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+
+.photo-hotel{
+    height: 155px;
+    background-image: url(photo/hotel.png);
+   }
+
+.hotel-info{
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
+    margin: 0 25px;
+} 
+
+.hotel-title{
+    font-weight: bold;
+}
+
+.hotel-name{
+    width: 80px;
+    height:20px;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+}
+
+.hotel-name p{
+    font-size: small;
+    text-align: center;
+}
+   
+
 .pension-fond{
     width: 640px;
     height:210px;
