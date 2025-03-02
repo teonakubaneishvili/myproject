@@ -448,12 +448,58 @@
 
 .all-offer{
     width: 640px;
-    height: 450px;
+    height: 490px;
     background-color: #fcfcfc;
     margin-top: 15px;
     border-radius: 10px;
+   
+    
+}
+
+.offer-title-box{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.all-offer-container{
     display: flex;
     justify-content: space-around;
+}
+
+.offer-title{
+    width: 200px;
+    height: 30px;
+    margin-top: 40px;
+    color: #323232;
+    
+}
+
+.all-offer-title{
+    display: flex;
+    width: 250px;
+    height: 30px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+.all-offer-title img{
+    width: 30px;
+    height: 30px;
+}
+
+.all-offer-title h3{
+    margin: 0 10px;
+    color: #f87631;
+
+}
+
+.arrow{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 5px 14px;
+    color: hsl(0, 2%, 47%);
 }
 
 .health-box{
@@ -547,6 +593,40 @@
 .hotel-name p{
     font-size: small;
     text-align: center;
+}
+
+.other-offer-container{
+    width: 300px;
+    height: 50px;
+    margin: 0 160px;
+}
+
+.direction{
+    display: flex;
+    justify-content: space-around;
+    margin:30px 70px;
+}
+
+.right-arrow{
+    font-size: 24px;
+    margin:5px 10px;
+    font-weight: bold;
+    color: #6b6a6a;
+}
+
+.point{
+    font-size: 50px;
+    margin-top: -25px;
+    color: #6b6a6a;
+    transition: 0.5s;
+}
+
+.point:hover{
+    color: orangered;
+}
+
+.right-arrow:hover{
+    color: black;
 }
    
 
