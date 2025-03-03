@@ -13,7 +13,7 @@
 .header-content{
     width: 100%;
     height: 80px;
-    background-color:#e7e6e6;
+    background-color:#f4f4f4;
     display: flex;
     justify-content: space-between;
   
@@ -62,21 +62,21 @@
 }
 
 .search-icon{
-    width: 20px;
-    height: 20px;
-    border:4px solid gray;
+    width: 15px;
+    height: 15px;
+    border:2px solid gray;
     border-radius: 50%;
     position: relative;
 }
 
 .handle{
     position: absolute;
-    width: 5px;
-    height: 10px;
+    width:2px;
+    height: 8px;
     background-color: grey;
     left: 120%;
     transform: translateX(-50%) rotate(-30deg);
-    bottom: -10px;
+    bottom: -8px;
     border-radius: 3px;
 }
 
@@ -85,7 +85,8 @@
     height: 24px;
     background-size: cover;
     cursor:pointer;
-    background-image: url(bell-860\ \(1\).png);
+    background-image: url(photo/bell.png);
+    margin: auto;
    
 }
 
@@ -109,9 +110,9 @@
 }
 
 .menu-icon{
-    width: 30px;
-    height: 30px;
-    background-color: rgb(197, 194, 194);
+    width: 40px;
+    height: 40px;
+    background-color: #eaeaea;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -121,7 +122,6 @@
 .circle-container{
     width: 20px;
     height: 20px;
-    background-color: rgb(197, 194, 194);
     border-radius: 50%;
     display: flex;
     flex-wrap: wrap;
@@ -138,17 +138,19 @@
 
 .profile{
     width: 210px;
-    height: 35px;
-    background-color:rgb(197, 194, 194);
+    height: 40px;
     border-radius: 20px;
     display: flex;
+    background-color: #eaeaea;
 }
+
 
 .profile-icon img{
     width: 25px;
     height: 25px;
     border-radius: 50%;
     margin:5px;
+    background-color:#ff600a ;
 }
 
 .profile h2{
@@ -607,17 +609,35 @@
     margin:30px 70px;
 }
 
+.left-arrow{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
 .right-arrow{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.lack-symbol{
     font-size: 24px;
     margin:5px 10px;
     font-weight: bold;
-    color: #6b6a6a;
+    color: #d9d6d6;
+}
+.excess-symbol{
+    font-size: 24px;
+    margin:5px 13px;
+    font-weight: bold;
+    color: #d9d6d6;
 }
 
 .point{
-    font-size: 50px;
-    margin-top: -25px;
-    color: #6b6a6a;
+    font-size: 60px;
+    margin-top: -30px;
+    color: #d9d6d6;
     transition: 0.5s;
 }
 
@@ -626,16 +646,48 @@
 }
 
 .right-arrow:hover{
-    color: black;
+    background-color: #f2f2f2;
+}
+
+.left-arrow:hover{
+    background-color: #f2f2f2;
 }
    
 
-.pension-fond{
+.pension-fond-container{
     width: 640px;
-    height:210px;
+    height:120px;
     background-color:#fcfcfc ;
     margin-top: 15px;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fond{
+    width: 300px;
+    height: 100px;
+}
+
+.fond h3{
+    font-size: large;
+    font-weight: lighter;
+    color: #393838;
+    margin: 30px 30px;
+}
+
+.activation{
+    margin: -20px 30px;
+    color: #ff6e1d;
+}
+
+.fond-logo{
+    width: 300px;
+    height: 100px;
+}
+
+.fond-logo img{
+    margin: 35px 150px;
 }
 
 .currency-exchange{
@@ -886,11 +938,16 @@
     justify-content: space-around;
 }
 
+.transaction-box:hover{
+    background-color: #f2f2f2;
+}
+
 .photo-icon{
     width: 50px;
     height: 50px;
     border-radius: 100%;
     background-color:#f5d3d3; 
+    background-image: url(photo/pers-logo.png);
 }
 
 
@@ -931,7 +988,10 @@
     border-radius: 100%;
     background-color:hsl(126, 100%, 75%); 
     margin-left:13px;
+    background-image: url(photo/cursor.png );
+   
 }
+
 
 .transaction{
     height: 70px;
@@ -940,6 +1000,10 @@
     border-bottom:1px solid #ddd;
     display: flex;
 }
+.transaction:hover{
+    background-color: #f2f2f2;
+}
+
 
 .personal-transcription{
     margin-left: 25px;
