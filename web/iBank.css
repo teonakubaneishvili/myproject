@@ -690,13 +690,112 @@
     margin: 35px 150px;
 }
 
+
 .currency-exchange{
+    margin-top: 20px;
     width: 640px;
-    height: 415px;
-    background-color:#fcfcfc;
-    margin-top: 15px;
-    border-radius: 10px;
+    height: 130px;
+    border-bottom: 1px solid #dedbdb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #fcfcfc;
 }
+
+.currency-rates{
+display: flex;
+justify-content: space-between;
+}
+
+.currency-rates img{
+    width: 30px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left:220px;
+}
+
+.currency-rates p{
+    font-size: medium;
+    font-weight: lighter;
+    color: #ff6c1d;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.currency-info{
+display: flex;
+justify-content: space-between;
+}
+
+.currency-rates h3{
+   font-size: large;
+   color: #323232;
+   margin: 40px 30px;
+}
+
+.currency-info{
+    display: flex;
+    margin-top: -15px;
+    color: #8b8b92
+}
+
+.info-box{
+    display: flex;
+    margin: 10px 30px;
+}
+
+.info-box p{
+    margin-left: 20px;
+}
+
+
+.bank-cours{
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+.exchange-box{
+    width: 640px;
+    height: 50px;
+    border-bottom: 1px solid #dedbdb;
+    background-color: #fcfcfc;
+}
+
+.dollar-exchange{
+    width: 640px;
+    height: 75px;
+    border-bottom: 1px solid #dedbdb;
+    background-color: #fcfcfc;
+}
+
+.euro-exchange{
+    width: 640px;
+    height: 75px;
+    border-bottom: 1px solid #dedbdb;
+    background-color: #fcfcfc;
+}
+
+.poundsterling-exchange{
+    width: 640px;
+    height: 75px;
+    border-bottom: 1px solid #dedbdb;
+    background-color: #fcfcfc;
+}
+
+.see-all-exchange{
+    width: 640px;
+    height: 75px;
+    border-bottom: 1px solid #dedbdb;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #fcfcfc; 
+}
+
+
 
 .informational-box{
     width: 50%;
