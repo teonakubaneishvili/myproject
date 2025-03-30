@@ -1354,18 +1354,6 @@ justify-content: space-between;
     }
 }
 
-@media (max-width: 900px){
-    .nav-menu ul li:nth-child(5) {
-        display: none;
-    }
-}
-
-@media (max-width: 720px){
-    .nav-menu ul li:nth-child(4) {
-        display: none;
-    }
-}
-
 
 @media (max-width: 1013px) {
     .section-boxes {
@@ -1380,7 +1368,28 @@ justify-content: space-between;
     .nav-menu ul li:nth-child(5) {
         display: none;
     }
+
+    .available-money {
+        order: 1;
+    }
+
+    .informational-box{
+        order: 2;
+    }
 }
+
+@media (max-width: 900px){
+    .nav-menu ul li:nth-child(5) {
+        display: none;
+    }
+}
+
+@media (max-width: 720px){
+    .nav-menu ul li:nth-child(4) {
+        display: none;
+    }
+}
+
 
 @media (max-width:500px) {
     .header-logo img{
